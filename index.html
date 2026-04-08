@@ -26,23 +26,23 @@
     }
     .image-container {
         display: flex;
-        flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+        flex-wrap: wrap;
         gap: 20px;
-        justify-content: center; /* Centers the images */
+        justify-content: center;
         margin: 30px 0;
     }
     .image-container a {
-        width: calc(25% - 20px); /* Responsive sizing */
-        min-width: 150px; /* Prevents images from getting too small on mobile */
+        width: calc(25% - 20px);
+        min-width: 150px;
     }
     .image-container img {
         width: 100%;
         height: auto; 
-        border-radius: 8px; /* Added slightly rounded corners for style */
-        transition: transform 0.3s ease; /* Adds a hover effect */
+        border-radius: 8px;
+        transition: transform 0.3s ease;
     }
     .image-container img:hover {
-        transform: scale(1.05); /* Image slightly zooms on hover */
+        transform: scale(1.05);
     }
     a {
         color: rgb(160, 58, 58);
